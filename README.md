@@ -1,10 +1,9 @@
-# Qantas Group Accommodation app
+# Qantas Group Accommodation app (React + TypeScript + Vite)
 
-# React + TypeScript + Vite
-
-# Run in dev mode
+## Run in dev mode
 
 yarn
+
 yarn dev
 
 # Build and run locally
