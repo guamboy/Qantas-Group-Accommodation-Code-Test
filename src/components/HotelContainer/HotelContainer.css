@@ -1,0 +1,68 @@
+.box {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.heading-with-rating {
+  display: flex;
+}
+
+.hotel-img {
+  object-fit: cover;
+  width: 180px;
+  height: 160px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  background-color: white;
+  color: #de0909;
+  padding: 4px 10px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+p.savings {
+  color: #de0909;
+  font-size: 1.5em;
+  display: flex;
+  align-items: inherit;
+  text-align: right;
+  justify-content: end;
+}
+
+p.savings > span {
+  font-size: 0.7em;
+}
+
+p.displayPrice {
+  display: flex;
+  align-items: inherit;
+  font-size: 3em;
+  text-align: right;
+  justify-content: end;
+}
+
+p.displayPrice > span {
+  font-size: 0.6em;
+  margin-top: 4px;
+  margin-right: 2px;
+}
+
+p.cancellation {
+  color: #41802c;
+  font-size: 0.9em;
+}
+
+p.duration {
+  font-size: 0.9em;
+}

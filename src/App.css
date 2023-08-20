@@ -1,0 +1,46 @@
+.logo {
+  height: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+  margin-bottom: 30px;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.details-and-price {
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin: 0px;
+  margin-right: 15px;
+}
+
+p.address {
+  color: #9f9f9f;
+  margin: 0px 0px 20px 0px;
+  font-size: 0.9em;
+}
+
+p.offer-name {
+  color: #de0909;
+  text-decoration: underline;
+  font-size: 0.9em;
+  margin-bottom: 40px;
+}

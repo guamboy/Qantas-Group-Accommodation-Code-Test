@@ -1,0 +1,43 @@
+.hotel-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.circle:last-of-type {
+  margin-right: 0px;
+}
+.circle-grey {
+  background-color: #dfdee0;
+}
+
+.circle-yellow {
+  background-color: #f4e704;
+}
+
+.star {
+  background: gold;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+}
