@@ -6,30 +6,35 @@ yarn
 
 yarn dev
 
-# Build and run locally
+## Build and run locally
 
 yarn global add serve
+
 yarn build
+
 serve dist
 
-## Assumptions made in development
+# Assumptions made in development
 
-# Several assumptions were made.
+Several assumptions were made.
 
 JSON Payload Types
+
 Preliminary types were assigned to the JSON payload. Ordinarily, the payload would be obtained through API requests (e.g., fetch, axios), but for demonstration purposes, it was directly loaded from a file.
 
 Visual Styling
+
 Colours, fonts, and sizing were aligned to the desired design by eyeballing. They are not pixel-perfect.
 
 Folder Structure
+
 In this implementation, all components are organized within the "components" folder. In a more complex project, components would likely be categorized based on their functionality, possibly following a page-based structure.
 
 Star Rating
+
 For simplicity, CSS was used to create the star rating. Alternatively, SVGs could be employed for more complex and customizable rendering.
 
-Layout
-The layout and styling have been developed only for desktop and aren’t optimised for mobile viewing.
+Layout: The layout and styling have been developed only for desktop and aren’t optimised for mobile viewing.
 
 ## No commit history
 
