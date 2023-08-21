@@ -1,31 +1,32 @@
 import { CancellationType, HotelRating, Price } from "../../data/data";
 import Rating from "./Rating";
 import { formatAmount, formatCancellationType, truncateString } from "./utils";
+
 import "./HotelContainer.css";
 
 interface HotelContainerProps {
-  imgUrl: string;
-  hotelName: string;
   address: string[];
-  offerName: string;
   cancellationPolicy: CancellationType;
-  displayPrice: Price;
-  savings?: Price | null;
-  hotelRating: HotelRating;
   dealTitle: string;
+  displayPrice: Price;
+  hotelName: string;
+  hotelRating: HotelRating;
+  imgUrl: string;
+  offerName: string;
+  savings?: Price | null;
 }
 
 export const HotelContainer: React.FC<HotelContainerProps> = (props) => {
   const {
-    displayPrice,
-    imgUrl,
-    hotelName,
     address,
-    offerName,
     cancellationPolicy,
-    savings,
-    hotelRating,
     dealTitle,
+    displayPrice,
+    hotelName,
+    hotelRating,
+    imgUrl,
+    offerName,
+    savings,
   } = props;
 
   return (
