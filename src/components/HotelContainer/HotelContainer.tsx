@@ -4,7 +4,7 @@ import { formatAmount, formatCancellationType, truncateString } from "./utils";
 
 import "./HotelContainer.css";
 
-interface HotelContainerProps {
+export interface HotelContainerProps {
   address: string[];
   cancellationPolicy: CancellationType;
   dealTitle: string;
