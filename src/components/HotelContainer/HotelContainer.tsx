@@ -1,4 +1,4 @@
-import { CancellationType, HotelRating, Price } from "../../data/data";
+import { CancellationType, HotelRating, Price } from "../../types/types";
 import Rating from "./Rating";
 import { formatAmount, formatCancellationType, truncateString } from "./utils";
 

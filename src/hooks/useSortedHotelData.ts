@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 
-import { HotelDataType } from "../data/data";
+import { HotelDataType } from "../types/types";
 
 export function useSortedHotelData(
   hotelData: HotelDataType[] | null,

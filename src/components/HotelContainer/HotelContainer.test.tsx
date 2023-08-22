@@ -4,7 +4,7 @@ import {
   CancellationType,
   Currency,
   HotelRatingTypeEnum,
-} from "../../data/data";
+} from "../../types/types";
 
 const mockHotelData: HotelContainerProps = {
   address: ["7-11 Talavera Rd", "North Ryde"],

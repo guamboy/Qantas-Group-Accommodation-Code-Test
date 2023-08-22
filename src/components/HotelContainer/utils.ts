@@ -1,4 +1,4 @@
-import { CancellationType, Currency, Price } from "../../data/data";
+import { CancellationType, Currency, Price } from "../../types/types";
 
 export const formatAmount = ({ currency, amount }: Price): string => {
   const numberFormat = numberFormatForCurrency(currency);

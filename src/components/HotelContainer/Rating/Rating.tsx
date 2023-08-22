@@ -1,4 +1,4 @@
-import { HotelRating, HotelRatingTypeEnum } from "../../../data/data";
+import { HotelRating, HotelRatingTypeEnum } from "../../../types/types";
 import "./Rating.css";
 
 export const Rating = ({ ratingType, ratingValue }: HotelRating) => {
